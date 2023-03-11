@@ -14,8 +14,12 @@ function(){
              
         }
     else{
-        var x=prompt("Enter Time in Seconds You Want to Play:");
-        nae=prompt("Enter Your Name:");
+       var x;
+       while(x!=null||x<0){
+         x=prompt("Enter Time in Seconds You Want to Play:");
+       }
+       while(name!=null){
+        nae=prompt("Enter Your Name:");}
          playing=true;
          hide("Gameover");
          score=0;
