@@ -1,0 +1,179 @@
+html{
+    height:100%;
+    background-image:url('https://img.freepik.com/free-vector/math-background_23-2148147248.jpg');
+    
+}
+#container{
+    height:390px;
+    width:550px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdXDSW6Bczw1EWS5Ng4F9NdrVPWRfeUHNLZ-rVXAxvg&usqp=CAU&ec=48600113');
+    margin :100px auto ;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:4px 4px  30px;
+    -moz-box-shadow:4px 4px  30px;
+    -webkit-box-shadow:4px 4px  30px;
+  
+    position:relative;
+}
+#score{
+    background-color: yellowgreen;
+    color:black;
+    padding:10px;
+    position:absolute;
+    left:500px;
+
+    right:4px;
+    box-shadow:0px 4px burlywood;
+    -webkit-box-shadow:0px 4px burlywood;
+    -moz-box-shadow:0px 4px burlywood;
+}
+#correct{
+position:absolute;
+left:240px;
+width:100px;
+text-align: center;
+background-color:rgb(6, 117, 50);
+border-radius: 5px;
+color:white;
+padding:11px;
+display:none;
+}
+#wrong{
+position:absolute;
+left:250px;
+background-color: rgb(225, 18, 18);
+border-radius:5px;
+color:white;
+padding:11px;
+display:none;
+}
+#Question{
+    width:450px;
+    height:140px;
+   margin:50px auto 10px auto;
+   background-color:rgb(191, 114, 191);
+   box-shadow: 0px 4px rgb(143, 112, 112);
+  -webkit-box-shadow: 0px 4px rgb(143, 112, 112);
+   -moz-box-shadow: 0px 4px rgb(143, 112, 112);
+   font-size:100px;
+   text-align:center;
+   font-family:cursive,sans-serif;
+   color:black;
+   border-radius: 10px;
+}
+#instruction{
+   width:450px;
+   height:50px;
+   background-color: rgb(131, 131, 204);
+   margin:10px auto;
+   text-align: center;
+   font-family: cursive,sans-serif;
+   line-height:45px ;
+   border-radius: 10px;
+}
+#choices{
+    height:100px;
+    width:450px;
+    margin:5px auto;
+    
+   
+}
+.box{
+    height:85px;
+    width:85px;
+    float:left;
+    background-color: white;
+    margin-right:36px;
+    border-radius:15px 0px 15px 0px;
+    cursor:pointer;
+    box-shadow: 0px 4px gray;
+    text-align:center;
+    line-height: 80px;
+    position:relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    
+    
+}
+.box:hover{
+    background-color:rgb(164, 150, 56) ;
+    color:white;
+    box-shadow: 0px 4px blueviolet;
+    -moz-box-shadow: 0px 4px blueviolet;
+    -webkit-box-shadow: 0px 4px blueviolet;
+}
+.box:active{
+    box-shadow: 0px 0px rgb(74, 185, 202);
+    -webkit-box-shadow: 0px 0px rgb(74, 185, 202);
+    -moz-box-shadow: 0px 0px rgb(74, 185, 202);
+    top:4px;
+}
+#ans4{
+    margin-right:0px;
+}
+#Start{
+    width:89px;
+    height:10px
+    padding10px;
+    background-color:rgb(133,200,218);
+    line-height:35px;
+    text-align: center;
+    margin-left: 210px;
+    box-shadow: 0px 3px rgb(113, 113, 184);
+    border-radius: 8px 0px 8px 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+#Start:hover{
+    background-color:rgb(164, 150, 56) ;
+    color:white;
+    box-shadow: 0px 4px blueviolet;
+    -moz-box-shadow: 0px 4px blueviolet;
+    -webkit-box-shadow: 0px 4px blueviolet;
+}
+#Start:active{
+    box-shadow: 0px 0px rgb(74, 185, 202);
+    -webkit-box-shadow: 0px 0px rgb(74, 185, 202);
+    -moz-box-shadow: 0px 0px rgb(74, 185, 202);
+    top:4px;
+
+}
+#timeremain{
+       width:160px;
+       padding:10px;
+       position: absolute;
+       top:385px;
+       text-align: center;
+       left:400px;
+       background-color: greenyellow;
+       border-radius: 10px;
+       box-shadow:0px 4px rgb(0,0,0,0.2);
+       -webkit-box-shadow:0px 4px rgb(0,0,0,0.2);
+       -moz-box-shadow:0px 4px rgb(0,0,0,0.2);
+        display: none;
+}
+#Gameover{
+    height:250px;
+    width:490px;
+    background: radial-gradient(circle,#c2522c,#9DD2EA);
+    color:white;
+    font-family:cursive,sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    font-size:40px;
+    text-transform: uppercase;
+    position:absolute;
+    top:100px;
+    left:50px;
+    z-index:2;
+    display: none;
+
+}
